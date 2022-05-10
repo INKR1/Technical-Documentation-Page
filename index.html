@@ -6,174 +6,420 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css-reset.css" />
     <link rel="stylesheet" href="./global.css" />
-    <title>Produc Landing Page</title>
+    <title>Technical Documentation Page</title>
   </head>
+
+<!-- NAVBAR DESKTOP -->
+
   <body>
-    <header class="header" id="header">
-      <nav id="nav-bar" class="nav">
-        <div>
-          <a href="./index.html">
-            <img
-              src="https://www.pngjoy.com/pngl/342/6399523_horde-logo-zombicide-green-horde-logo-transparent-png.png"
-              id="header-img"
-              class="nav__logo"
-              alt="zombicide logo"
-            />
-          </a>
-        </div>
-        <ul class="nav__menu">
-          <li class="nav__menu__link">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li class="nav__menu__link">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav__menu__link">
-            <a href="#contact-us" class="nav-link">Contact us</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__container container px md">
-        <div>
-          <h1 class="header__title" id="home">
-            Zombies gonna rule the world!
-          </h1>
-        </div>
-        <!-- <div>
-          <img class="header__image"
-          src="https://t4.ftcdn.net/jpg/03/70/37/03/360_F_370370368_DlleWeyzynmqkLVZp6V2CR04mcNGrjnv.jpg"
-          alt="abominotaur"
-        </div> -->
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <section class="px-md about" id="about">
-          <iframe
-            id="video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/BUvpnIi6ixw"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <p class="px-md about">
-            Zombicide is a collaborative game in which players take the role of
-            a survivor – each with unique abilities – and harness both their
-            skills and the power of teamwork against the hordes of unthinking
-            undead! Zombies are predictable, stupid but deadly. there are a lot
-            of collectible figurines in this game! What we offer is to paint
-            them all that the game would look even more scarier!
-          </p>
-        </section>
-        <!-- <ul class="feature-list">
-            <li class="about-list__item">
-              Super feature 1
-            </li>
-            <li class="about-list__item">
-              Super feature 1
-            </li> -->
-        <!-- </ul> -->
-
-        <section class="products px-md" id="products">
-          <h2 class="products__title">Painting posibilities</h2>
-
-          <div class="products__grid">
-            <div class="products__grid__fig">
-              <img
-                class="products__grid__fig__img1"
-                src="https://static.wikia.nocookie.net/zombicide/images/a/a9/BP_Standard_Fatty.png"
-                alt="Zombies"
-              />
-              <h3 class="products__grid__fig__title">Zombies</h3>
-              <p class="products__grid__fig__description">
-                Cheapest class of the zombies also fastest to paint and looks
-                awesome
-              </p>
-              <div class="products__pricing__container">
-                <p class="products__grid__fig__price__current">$58</p>
-                <p class="products__grid__fig__price__old">$70</p>
-                <button class="product__button button--sm">Buy Now</button>
-              </div>
-            </div>
-            <div class="products__grid__fig">
-              <img
-                class="products__grid__fig__img"
-                src="https://despelvogel.com/wp-content/uploads/2019/11/zbp.png"
-                alt="Zombies"
-              />
-              <h3 class="products__grid__fig__title">Survivors</h3>
-              <p class="products__grid__fig__description">
-                More detailed modules, takes more time to paint and looks even
-                more awesome!
-              </p>
-              <div class="products__pricing__container">
-                <p class="products__grid__fig__price__current">$80</p>
-                <p class="products__grid__fig__price__old">$100</p>
-                <button class="product__button button--sm">Buy Now</button>
-              </div>
-            </div>
-            <div class="products__grid__fig">
-              <img
-                class="products__grid__fig__img"
-                src="https://despelvogel.com/wp-content/uploads/2019/11/WB-Wolves.png"
-                alt="Zombies"
-              />
-              <h3 class="products__grid__fig__title">Abominations</h3>
-              <p class="products__grid__fig__description">
-                Biggest miniatures in the game and takes long time to paint but
-                looks unreal!
-              </p>
-              <div class="products__pricing__container">
-                <p class="products__grid__fig__price__current">$130</p>
-                <p class="products__grid__fig__price__old">$150</p>
-                <button class="product__button button--sm">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="contact-us px-md" id="contact-us">
-          <form
-            action="https://www.freecodecamp.com/email-submit"
-            id="form"
-            class="contact-us__form"
+    <nav class="desktop-nav" id="navbar">
+      <header>
+        <h1>CSS layout</h1>
+      </header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction_to_CSS_layout"
+            >Introduction to CSS layout</a
           >
-            <label for="email">Your email</label>
-            <input
-              class="textarea"
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Please enter your email"
-              required
-            />
-            <label for="message">Message</label>
-            <textarea
-              class="textarea"
-              id="message"
-              placeholder="Want to know more? Writte us a message and wait to be surprised!"
-              required
-              cols="30"
-              rows="10"
-            ></textarea>
-            <input type="submit" id="submit" />
-          </form>
-        </section>
-      </div>
-    </main>
-    <footer id="footer">
-      <div class="footer-div-flex">
-        <span class="span-flex">Copyright &copy;2021, Zombicide</span>
+        </li>
+        <li>
+          <a class="nav-link" href="#Normal_flow">Normal flow</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#the_display_property">The display property</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Flexbox">Flexbox</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Grid_Layout">Grid Layout</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Floats">Floats</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Positioning_techniques">Positioning techniques</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Table_layout">Table layout</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Multiple-column_layout">Multiple-column layout</a>
+        </li>
+      </ul>
+    </nav>
 
-        <ul class="footer-flex">
-          <li><a class="footer-link" href="">Privacy</a></li>
-          <li><a class="footer-link" href="#">Terms</a></li>
-          <li><a class="footer-link" href="#">Contact</a></li>
+<!-- NAVBAR MOBILE -->
+
+    <nav class="mobile-nav" id="navbar">
+      <header>
+        <h1>CSS layout</h1>
+      </header>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              <a class="nav-link" href="#Introduction_to_CSS_layout"
+                >Introduction to CSS layout</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#Normal_flow">Normal flow</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#the_display_property">The display property</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Flexbox">Flexbox</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Grid_Layout">Grid Layout</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Floats">Floats</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Positioning_techniques">Positioning techniques</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Table_layout">Table layout</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Multiple-column_layout">Multiple-column layout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main id="main-doc">
+
+<!-- INTRODUCTION -->
+
+      <section class="main-section" id="Introduction_to_CSS_layout">
+        <header>Introduction to CSS layout</header>
+        <p>
+            CSS page layout techniques allow us to take elements contained in a web page and control where they're positioned relative to the following factors: their default position in normal layout flow, the other elements around them, their parent container, and the main viewport/window. The page layout techniques we'll be covering in more detail in this module are:
+        </p>
+        <div class="intro-list">
+          <ul>
+            <li>
+                Normal flow
+            </li>
+            <li>
+                The display property
+            </li>
+            <li>
+                Flexbox
+            </li>
+            <li> 
+                Grid
+            </li>
+            <li>
+                Floats
+            </li>
+            <li>
+                Positioning
+            </li>
+            <li>
+                Table layout
+            </li>
+            <li>
+                Multiple-column layout
+            </li>
+          </ul>
+      </div>
+      <br>
+        <p>
+            Each technique has its uses, advantages, and disadvantages. No technique is designed to be used in isolation. By understanding what each layout method is designed for you'll be in a good position to understand which method is most appropriate for each task.
+        </p>
+      </section>
+
+<!-- NORMAL FLOW -->
+
+      <section class="main-section" id="Normal_flow">
+        <header>Normal flow</header>
+        <p>
+            Normal flow is how the browser lays out HTML pages by default when you do nothing to control page layout. Let's look at a quick HTML example:
+        </p>
+        <div class="code">
+        <code>
+          <xmp>
+            <p>I love my cat.</p>
+            <ul>
+              <li>Buy cat food</li>
+              <li>Exercise</li>
+              <li>Cheer up friend</li>
+            </ul>
+            <p>The end!</p>
+          </xmp>
+          </code>
+        </div>
+        <p>
+            By default, the browser will display this code as follows:
+        </p>
+        <br>
+<div class="html-eg">
+  <p>I love my cat</p>
+  <ul>
+    <li>Buy cat food</li>
+    <li>Exercise</li>
+    <li>Cheer up friend</li>
+  </ul>
+  <br>
+  <p>The end!</p>
+  <br>
+</div>
+<p>The elements that appear one below the other are described as block elements, in contrast to inline elements, which appear beside one another like the individual words in a paragraph.</p>
+<p class="note"><strong>Note:</strong> The direction in which block element contents are laid out is described as the Block Direction. The Block Direction runs vertically in a language such as English, which has a horizontal writing mode. It would run horizontally in any language with a Vertical Writing Mode, such as Japanese. The corresponding Inline Direction is the direction in which inline contents (such as a sentence) would run.</p>
+      </section>
+
+<!-- DISPLAY PROPERTIES -->
+
+      <section class="main-section" id="the_display_property">
+        <header>The display property</header>
+        <p>
+            The main methods for achieving page layout in CSS all involve specifying values for the <code>display</code> property. This property allows us to change the default way something displays. Everything in normal flow has a default value for <code>display</code>
+        </p>
+        <p>
+            You can change this default display behavior. For example, the <code> < li > </code> element is display: block by default, meaning that list items display one below the other in our English document. If we were to change the display value to inline they would display next to each other, as words would do in a sentence.
+        </p>
+        <p>In addition to being able to change the default presentation by turning an item from block to inline and vice versa, there are some more involved layout methods that start out as a value of display. However, when using these you will generally need to invoke additional properties. The two values most important for our discussion of layout are display: flex and display: grid.</p>
+      </section>
+
+      <!--FLEXBOX-->
+
+      <section class="main-section" id="Flexbox">
+        <header>Flexbox</header>
+        <p>
+            Flexbox is the short name for the Flexible Box Layout CSS module, designed to make it easy for us to lay things out in one dimension — either as a row or as a column. To use flexbox, you apply display: flex to the parent element of the elements you want to lay out; all its direct children then become flex items.
+        </p>
+        <p>
+        If we add display: flex to the parent, the three items now arrange themselves into columns. This is due to them becoming flex items and being affected by some initial values that flexbox sets on the flex container. They are displayed in a row because the property flex-direction of the parent element has an initial value of row. They all appear to stretch in height because the property align-items of their parent element has an initial value of stretch. This means that the items stretch to the height of the flex container, which in this case is defined by the tallest item. The items all line up at the start of the container, leaving any extra space at the end of the row.
+        </p>
+        <code class="code-eg">
+          <xmp>
+            .wrapper {
+              display: flex;
+            }
+          </xmp>
+        </code>
+        <code>
+        <xmp class="code-eg">
+            <div class="wrapper">
+                <div class="box1">One</div>
+                <div class="box2">Two</div>
+                <div class="box3">Three</div>
+              </div>
+        </xmp>
+      </code>
+        <p class="note"><strong>Note:</strong> This has been a very short introduction to what is possible in Flexbox. To find out more, see <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank"> <u>Flexbox</u></a>  article.</p>
+      </section>
+
+<!-- GRID LAYOUT -->
+
+      <section class="main-section" id="Grid_Layout">
+        <header>Grid Layout</header>
+        <p>
+            While flexbox is designed for one-dimensional layout, Grid Layout is designed for two dimensions — lining things up in rows and columns.
+        </p>
+        <p>
+            Similar to flexbox, we enable Grid Layout with its specific display value — display: grid. The below example uses similar markup to the flex example, with a container and some child elements. In addition to using display: grid, we also define some row and column tracks for the parent using the grid-template-rows and grid-template-columns properties respectively.
+        </p>
+        <code>
+          <xmp>
+              .wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 100px 100px;
+                grid-gap: 10px;
+            }
+          </xmp>
+        </code>
+          <code>
+          <xmp>
+              <div class="wrapper">
+                  <div class="box1">One</div>
+                  <div class="box2">Two</div>
+                  <div class="box3">Three</div>
+                  <div class="box4">Four</div>
+                  <div class="box5">Five</div>
+                  <div class="box6">Six</div>
+              </div>
+          </xmp>
+        </code>
+        <p>Once you have a grid, you can explicitly place your items on it, rather than relying on the auto-placement behavior seen above</p>
+        <p class="note"><strong>
+    </strong>      Note:To learn more, see <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids" target="_blank"> <u>Grid Layout</u></a> article.
+        </p>
+      </section>
+
+<!-- FLOATS -->
+
+  <section class="main-section" id="Floats">
+    <header>Floats</header>
+        <p>
+            Floating an element changes the behavior of that element and the block level elements that follow it in normal flow. The floated element is moved to the left or right and removed from normal flow, and the surrounding content floats around it.
+        </p>
+        <p>
+            The float property has four possible values:
+        </p>
+        <div class="values">
+        <ul>
+          <li>left — Floats the element to the left.</li>
+          <li>right — Floats the element to the right.</li>
+          <li>none — Specifies no floating at all. This is the default value.</li>
+          <li> inherit — Specifies that the value of the float property should be inherited from the element's parent element.</li>
         </ul>
       </div>
-    </footer>
+        <p class="note"><strong>Note:</strong> Floats are fully explained in lesson on the <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats" target="_blank"><u>float and clear </u> </a> properties. Prior to techniques such as Flexbox and Grid Layout, floats were used as a method of creating column layouts. You may still come across these methods on the web; you can find in the lesson on <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods"target="_blank"><u> legacy layout methods</u></a>.</p>
+      </section>
+
+<!-- Positioning -->
+
+      <section class="main-section" id="Positioning_techniques">
+        <header>Positioning techniques</header>
+        <p>
+            Positioning allows you to move an element from where it would otherwise be placed in normal flow over to another location. Positioning isn’t a method for creating the main layouts of a page; it's more about managing and fine-tuning the position of specific items on a page.
+        </p>
+        <p>
+            There are, however, useful techniques for obtaining specific layout patterns that rely on the position property. Understanding positioning also helps in understanding normal flow, and what it means to move an item out of the normal flow.
+        </p>
+        <p>There are five types of positioning you should know about:</p>
+        <div class="positioning">
+       <ul>
+         <li>Static positioning is the default that every element gets. It just means "put the element into its normal position in the document layout flow — nothing special to see here".</li>
+         <li>Relative positioning allows you to modify an element's position on the page, moving it relative to its position in normal flow, as well as making it overlap other elements on the page.</li>
+         <li>Absolute positioning moves an element completely out of the page's normal layout flow, like it's sitting on its own separate layer. From there, you can fix it to a position relative to the edges of the <code> &lt;html> </code> element (or its nearest positioned ancestor element). This is useful for creating complex layout effects, such as tabbed boxes where different content panels sit on top of one another and are shown and hidden as desired, or information panels that sit off screen by default, but can be made to slide on screen using a control button.</li>
+         <li>Fixed positioning is very similar to absolute positioning except that it fixes an element relative to the browser viewport, not another element. This is useful for creating effects such as a persistent navigation menu that always stays in the same place on the screen as the rest of the content scrolls.</li>
+         <li>Sticky positioning is a newer positioning method that makes an element act like position: static until it hits a defined offset from the viewport, at which point it acts like position: fixed.</li>
+       </ul>
+      </div>
+       <p class="note"><strong>
+    </strong>      Note: to find more out about positioning, see <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning" target="_blank"><u>Positioning</u></a> article.
+       </p>
+      </section>
+
+<!-- TABLE LAYOUT -->
+
+      <section class="main-section" id="Table_layout">
+        <header>Table layout</header>
+        <p>
+            HTML tables are fine for displaying tabular data, but many years ago — before even basic CSS was supported reliably across browsers — web developers used to also use tables for entire web page layouts, putting their headers, footers, columns, etc. into various table rows and columns. This worked at the time, but it has many problems: table layouts are inflexible, very heavy on markup, difficult to debug, and semantically wrong (e.g., screen reader users have problems navigating table layouts).
+        </p>
+        <p>
+            The way that a table looks on a webpage when you use table markup is due to a set of CSS properties that define table layout. These same properties can also be used to lay out elements that aren't tables, a use which is sometimes described as "using CSS tables".
+        </p>
+        <p>Let's look at an example. First, some simple markup that creates an HTML form. Each input element has a label, and we've also included a caption inside a paragraph. Each label/input pair is wrapped in a <div> for layout purposes.
+        </p>
+        <code>
+          <xmp>
+              <form>
+                  <p>First of all, tell us your name and age.</p>
+                  <div>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname">
+                  </div>
+                  <div>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname">
+                  </div>
+                  <div>
+                    <label for="age">Age:</label>
+                    <input type="text" id="age">
+                  </div>
+                </form>
+          </xmp>
+        </code>
+        <p>
+         This gives us the following result:
+        </p>
+        <div class="form">
+        <form>
+            <p>First of all, tell us your name and age.</p>
+            <div>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname">
+            </div>
+            <div>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname">
+            </div>
+            <div>
+              <label for="age">Age:</label>
+              <input type="text" id="age">
+            </div>
+          </form>
+        </div>
+      </section>
+
+<!-- MULTI-COLUMN LAYOUT -->
+
+      <section class="main-section" id="Multiple-column_layout">
+        <header>Multiple-column layout</header>
+        <p>
+          The multi-column layout CSS module provides us a way to lay out content in columns, similar to how text flows in a newspaper. While reading up and down columns is less useful in a web context due to the users having to scroll up and down, arranging content into columns can, nevertheless, be a useful technique.
+        </p>
+        <p>
+            To turn a block into a multi-column container, we use either the column-count property, which tells the browser how many columns we would like to have, or the column-width property, which tells the browser to fill the container with as many columns as possible of a specified width.
+        </p>
+        <p>In the below example, we start with a block of HTML inside a containing <div> element with a class of container.</p>
+        <div class="code">
+          <xmp>
+              <div class="container">
+
+                  <h1>Multi-column Layout</h1>
+                 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  luctus aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
+                  pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at
+                  ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta.</p>
+                 
+                  <p>Nam vulputate diam nec tempor bibendum. Donec luctus augue eget
+                  malesuada ultrices. Phasellus turpis est, posuere sit amet dapibus ut,
+                  facilisis sed est. Nam id risus quis ante semper consectetur eget aliquam
+                  lorem.</p>
+                 
+                  <p>Vivamus tristique elit dolor, sed pretium metus suscipit vel. Mauris
+                  ultricies lectus sed lobortis finibus. Vivamus eu urna eget velit cursus
+                  viverra quis vestibulum sem. Aliquam tincidunt eget purus in interdum. Cum
+                  sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                  mus.</p>
+                 
+                 </div>
+          </xmp>
+        </div>
+        <p>We're using a column-width of 200 pixels on that container, causing the browser to create as many 200 pixel columns as will fit. Whatever space is left between the columns will be shared.</p>
+        <code>
+            <xmp>
+                .container {
+                  column-width: 200px;
+              }
+            </xmp>
+          </code>
+          <div class="container1">
+
+              <h2>Multi-column Layout</h2>
+             
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              luctus aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
+              pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at
+              ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta.</p>
+             
+              <p>Nam vulputate diam nec tempor bibendum. Donec luctus augue eget
+              malesuada ultrices. Phasellus turpis est, posuere sit amet dapibus ut,
+              facilisis sed est. Nam id risus quis ante semper consectetur eget aliquam
+              lorem.</p>
+             
+              <p>Vivamus tristique elit dolor, sed pretium metus suscipit vel. Mauris
+              ultricies lectus sed lobortis finibus. Vivamus eu urna eget velit cursus
+              viverra quis vestibulum sem. Aliquam tincidunt eget purus in interdum. Cum
+              sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+              mus.</p>
+             
+             </div>
+      </section>
+    </main>
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
   </body>
 </html>
