@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 4rem;
+  font-family: "Indie flower", sans-serif;
+  background-image: linear-gradient(
+    white,
+    /* direction, */ rgb(255, 223, 163),
+    rgba(114, 0, 0),
+    rgba(0, 0, 0)
+  );
+}
+.px-md {
+  padding: 0rem 10em;
+}
+.nav__logo {
+  width: 6rem;
+  min-width: 2rem;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 0rem 1rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 223, 163, 0.6);
+  color: black;
+}
+
+.product {
+  background-color: #f8f3f4;
+  max-width: 20rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.product__img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.product__title {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.product__price {
+  font-size: 1rem;
+}
+
+.product__button {
+  margin-top: 0.5rem;
+  background-color: #aa7e6f;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 2rem;
+  font-weight: bold;
+  transition: transform 0.5s;
+  cursor: grab;
+}
+.product__button:hover {
+  transform: scale(1.1);
+}
+#submit {
+  margin-top: 0.5rem;
+  background-color: #aa7e6f;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 2rem;
+  font-weight: bold;
+  transition: transform 0.5s;
+}
+#submit:hover {
+  transform: scale(1.3);
+  cursor: grab;
+}
+
+.button--md {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+}
+.button--lg {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+.about {
+  min-height: 10vh;
+  padding: 4rem 1rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.contact-us {
+  min-height: 10vh;
+  font-size: 1rem;
+  color: white;
+}
+.textarea {
+  min-height: 20px;
+  width: 100%;
+  padding: 0.7rem;
+  resize: vertical;
+  background-color: rgb(241, 185, 112);
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  font-weight: 600px;
+}
+
+.nav__menu__link {
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  max-width: 70vw;
+  margin: auto;
+}
+
+#video {
+  width: 100%;
+}
+.header {
+  background-image: url(https://wallpapercave.com/wp/wp3204978.jpg);
+  min-height: 30vh;
+  padding-bottom: 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 50% bottom 65%;
+  background-position: fixed;
+}
+.header__container {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+}
+.header__container > div {
+  flex: 1;
+}
+.header__title {
+  font-size: 2.5rem;
+  color: rgb(95, 11, 11);
+  line-height: 32px;
+  font-weight: bold;
+  padding-right: 5rem;
+  padding-top: 5rem;
+  padding-left: 10rem;
+  text-shadow: 1px 1px 2px black, 0 0 1em yellow, 0 0 0.2em red;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__title {
+    font-size: 2rem;
+    color: red;
+    line-height: normal;
+    font-weight: bold;
+    padding-right: 0;
+  }
+}
+.products__grid__fig {
+  background-color: rgb(255, 223, 163);
+  padding: 2rem;
+}
+.products__grid__fig__img1 {
+  width: 50%;
+  max-height: 30rem;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.products__grid__fig__img1:hover {
+  transform: scale(1.5);
+}
+.products__grid__fig__img {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.products__grid__fig__img:hover {
+  transform: scale(1.5);
+}
+.products__grid__fig__title {
+  padding: 1rem 0rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(116, 88, 28),
+    0 0 0.2em rgb(255, 251, 0);
+}
+/* .products__grid__fig__price__current {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 0rem; */
+/* } */
+.products__grid__fig__description {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #7b7671;
+}
+.products__pricing__container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 0rem;
+}
+.products__grid__fig__price__old {
+  text-decoration: line-through;
+  color: rgb(60, 59, 56);
+  padding-left: 1.5rem;
+}
+.products__title {
+  font-size: 2rem;
+  font-weight: 800;
+  padding-bottom: 3rem;
+}
+.products__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+#footer {
+  color: black;
+  bottom: 0;
+  height: 4rem;
+  width: 100%;
+  background-color: rgba(255, 223, 163, 06);
+  border-radius: 15px 15px 0px 0px;
+  padding: 0rem 1rem;
+}
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font-weight: 600px;
+  padding: 0.5rem 1rem;
+}
+/* a.nav-link:hover,
+a.footer-link:hover {
+  background-color: #8c7b7c;
+} */

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css-reset.css" />
+    <link rel="stylesheet" href="./global.css" />
+    <title>Produc Landing Page</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav id="nav-bar" class="nav">
+        <div>
+          <a href="./index.html">
+            <img
+              src="https://www.pngjoy.com/pngl/342/6399523_horde-logo-zombicide-green-horde-logo-transparent-png.png"
+              id="header-img"
+              class="nav__logo"
+              alt="zombicide logo"
+            />
+          </a>
+        </div>
+        <ul class="nav__menu">
+          <li class="nav__menu__link">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav__menu__link">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav__menu__link">
+            <a href="#contact-us" class="nav-link">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__container container px md">
+        <div>
+          <h1 class="header__title" id="home">
+            Zombies gonna rule the world!
+          </h1>
+        </div>
+        <!-- <div>
+          <img class="header__image"
+          src="https://t4.ftcdn.net/jpg/03/70/37/03/360_F_370370368_DlleWeyzynmqkLVZp6V2CR04mcNGrjnv.jpg"
+          alt="abominotaur"
+        </div> -->
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="px-md about" id="about">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/BUvpnIi6ixw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p class="px-md about">
+            Zombicide is a collaborative game in which players take the role of
+            a survivor – each with unique abilities – and harness both their
+            skills and the power of teamwork against the hordes of unthinking
+            undead! Zombies are predictable, stupid but deadly. there are a lot
+            of collectible figurines in this game! What we offer is to paint
+            them all that the game would look even more scarier!
+          </p>
+        </section>
+        <!-- <ul class="feature-list">
+            <li class="about-list__item">
+              Super feature 1
+            </li>
+            <li class="about-list__item">
+              Super feature 1
+            </li> -->
+        <!-- </ul> -->
+
+        <section class="products px-md" id="products">
+          <h2 class="products__title">Painting posibilities</h2>
+
+          <div class="products__grid">
+            <div class="products__grid__fig">
+              <img
+                class="products__grid__fig__img1"
+                src="https://static.wikia.nocookie.net/zombicide/images/a/a9/BP_Standard_Fatty.png"
+                alt="Zombies"
+              />
+              <h3 class="products__grid__fig__title">Zombies</h3>
+              <p class="products__grid__fig__description">
+                Cheapest class of the zombies also fastest to paint and looks
+                awesome
+              </p>
+              <div class="products__pricing__container">
+                <p class="products__grid__fig__price__current">$58</p>
+                <p class="products__grid__fig__price__old">$70</p>
+                <button class="product__button button--sm">Buy Now</button>
+              </div>
+            </div>
+            <div class="products__grid__fig">
+              <img
+                class="products__grid__fig__img"
+                src="https://despelvogel.com/wp-content/uploads/2019/11/zbp.png"
+                alt="Zombies"
+              />
+              <h3 class="products__grid__fig__title">Survivors</h3>
+              <p class="products__grid__fig__description">
+                More detailed modules, takes more time to paint and looks even
+                more awesome!
+              </p>
+              <div class="products__pricing__container">
+                <p class="products__grid__fig__price__current">$80</p>
+                <p class="products__grid__fig__price__old">$100</p>
+                <button class="product__button button--sm">Buy Now</button>
+              </div>
+            </div>
+            <div class="products__grid__fig">
+              <img
+                class="products__grid__fig__img"
+                src="https://despelvogel.com/wp-content/uploads/2019/11/WB-Wolves.png"
+                alt="Zombies"
+              />
+              <h3 class="products__grid__fig__title">Abominations</h3>
+              <p class="products__grid__fig__description">
+                Biggest miniatures in the game and takes long time to paint but
+                looks unreal!
+              </p>
+              <div class="products__pricing__container">
+                <p class="products__grid__fig__price__current">$130</p>
+                <p class="products__grid__fig__price__old">$150</p>
+                <button class="product__button button--sm">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact-us px-md" id="contact-us">
+          <form
+            action="https://www.freecodecamp.com/email-submit"
+            id="form"
+            class="contact-us__form"
+          >
+            <label for="email">Your email</label>
+            <input
+              class="textarea"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Please enter your email"
+              required
+            />
+            <label for="message">Message</label>
+            <textarea
+              class="textarea"
+              id="message"
+              placeholder="Want to know more? Writte us a message and wait to be surprised!"
+              required
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" id="submit" />
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="footer-div-flex">
+        <span class="span-flex">Copyright &copy;2021, Zombicide</span>
+
+        <ul class="footer-flex">
+          <li><a class="footer-link" href="">Privacy</a></li>
+          <li><a class="footer-link" href="#">Terms</a></li>
+          <li><a class="footer-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
+</html>
